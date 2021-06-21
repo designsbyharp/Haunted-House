@@ -11,6 +11,7 @@ import { gameLoop } from './gameLoop';
 import { createPlane } from './plane';
 import { lightsGroup } from './lights';
 import { createOrbitControls } from './orbControls';
+import { createHouse } from './houseObjects';
 
 // Setup
 export const setup =(domEL, sizes)=> {
@@ -35,6 +36,8 @@ export const setup =(domEL, sizes)=> {
   scene.add(floor);
 
   // House objects
+  const houseObjects = createHouse();
+  scene.add(houseObjects);
 
   // Lights
   const lights = lightsGroup();
