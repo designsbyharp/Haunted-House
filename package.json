@@ -1,5 +1,5 @@
 {
-  "repository": "",
+  "repository": "https://github.com/designsbyharp/Haunted-House.git",
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
